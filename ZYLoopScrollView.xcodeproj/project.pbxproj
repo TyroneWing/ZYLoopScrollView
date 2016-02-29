@@ -15,6 +15,7 @@
 		1963932D1C83E1B60047D2A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1963932B1C83E1B60047D2A4 /* LaunchScreen.storyboard */; };
 		196393381C83E1B60047D2A4 /* ZYLoopScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 196393371C83E1B60047D2A4 /* ZYLoopScrollViewTests.m */; };
 		196393431C83E1B60047D2A4 /* ZYLoopScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 196393421C83E1B60047D2A4 /* ZYLoopScrollViewUITests.m */; };
+		196393551C83E2E40047D2A4 /* LoopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 196393541C83E2E40047D2A4 /* LoopScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1963933E1C83E1B60047D2A4 /* ZYLoopScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYLoopScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		196393421C83E1B60047D2A4 /* ZYLoopScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLoopScrollViewUITests.m; sourceTree = "<group>"; };
 		196393441C83E1B60047D2A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		196393531C83E2E40047D2A4 /* LoopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoopScrollView.h; path = ../LoopScrollView.h; sourceTree = "<group>"; };
+		196393541C83E2E40047D2A4 /* LoopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoopScrollView.m; path = ../LoopScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		1963931C1C83E1B60047D2A4 /* ZYLoopScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				196393531C83E2E40047D2A4 /* LoopScrollView.h */,
+				196393541C83E2E40047D2A4 /* LoopScrollView.m */,
 				196393201C83E1B60047D2A4 /* AppDelegate.h */,
 				196393211C83E1B60047D2A4 /* AppDelegate.m */,
 				196393231C83E1B60047D2A4 /* ViewController.h */,
@@ -273,6 +278,7 @@
 				196393251C83E1B60047D2A4 /* ViewController.m in Sources */,
 				196393221C83E1B60047D2A4 /* AppDelegate.m in Sources */,
 				1963931F1C83E1B60047D2A4 /* main.m in Sources */,
+				196393551C83E2E40047D2A4 /* LoopScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZYLoopScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TyroneWing.ZYLoopScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZYLoopScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TyroneWing.ZYLoopScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
