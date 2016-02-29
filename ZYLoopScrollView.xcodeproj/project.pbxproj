@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1963931F1C83E1B60047D2A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1963931E1C83E1B60047D2A4 /* main.m */; };
+		196393221C83E1B60047D2A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 196393211C83E1B60047D2A4 /* AppDelegate.m */; };
+		196393251C83E1B60047D2A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 196393241C83E1B60047D2A4 /* ViewController.m */; };
+		196393281C83E1B60047D2A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196393261C83E1B60047D2A4 /* Main.storyboard */; };
+		1963932A1C83E1B60047D2A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 196393291C83E1B60047D2A4 /* Assets.xcassets */; };
+		1963932D1C83E1B60047D2A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1963932B1C83E1B60047D2A4 /* LaunchScreen.storyboard */; };
+		196393381C83E1B60047D2A4 /* ZYLoopScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 196393371C83E1B60047D2A4 /* ZYLoopScrollViewTests.m */; };
+		196393431C83E1B60047D2A4 /* ZYLoopScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 196393421C83E1B60047D2A4 /* ZYLoopScrollViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		196393341C83E1B60047D2A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 196393121C83E1B60047D2A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 196393191C83E1B60047D2A4;
+			remoteInfo = ZYLoopScrollView;
+		};
+		1963933F1C83E1B60047D2A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 196393121C83E1B60047D2A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 196393191C83E1B60047D2A4;
+			remoteInfo = ZYLoopScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1963931A1C83E1B60047D2A4 /* ZYLoopScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYLoopScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1963931E1C83E1B60047D2A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		196393201C83E1B60047D2A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		196393211C83E1B60047D2A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		196393231C83E1B60047D2A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		196393241C83E1B60047D2A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		196393271C83E1B60047D2A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		196393291C83E1B60047D2A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1963932C1C83E1B60047D2A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1963932E1C83E1B60047D2A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		196393331C83E1B60047D2A4 /* ZYLoopScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYLoopScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		196393371C83E1B60047D2A4 /* ZYLoopScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLoopScrollViewTests.m; sourceTree = "<group>"; };
+		196393391C83E1B60047D2A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1963933E1C83E1B60047D2A4 /* ZYLoopScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYLoopScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		196393421C83E1B60047D2A4 /* ZYLoopScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLoopScrollViewUITests.m; sourceTree = "<group>"; };
+		196393441C83E1B60047D2A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		196393171C83E1B60047D2A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196393301C83E1B60047D2A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1963933B1C83E1B60047D2A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		196393111C83E1B60047D2A4 = {
+			isa = PBXGroup;
+			children = (
+				1963931C1C83E1B60047D2A4 /* ZYLoopScrollView */,
+				196393361C83E1B60047D2A4 /* ZYLoopScrollViewTests */,
+				196393411C83E1B60047D2A4 /* ZYLoopScrollViewUITests */,
+				1963931B1C83E1B60047D2A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1963931B1C83E1B60047D2A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1963931A1C83E1B60047D2A4 /* ZYLoopScrollView.app */,
+				196393331C83E1B60047D2A4 /* ZYLoopScrollViewTests.xctest */,
+				1963933E1C83E1B60047D2A4 /* ZYLoopScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1963931C1C83E1B60047D2A4 /* ZYLoopScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				196393201C83E1B60047D2A4 /* AppDelegate.h */,
+				196393211C83E1B60047D2A4 /* AppDelegate.m */,
+				196393231C83E1B60047D2A4 /* ViewController.h */,
+				196393241C83E1B60047D2A4 /* ViewController.m */,
+				196393261C83E1B60047D2A4 /* Main.storyboard */,
+				196393291C83E1B60047D2A4 /* Assets.xcassets */,
+				1963932B1C83E1B60047D2A4 /* LaunchScreen.storyboard */,
+				1963932E1C83E1B60047D2A4 /* Info.plist */,
+				1963931D1C83E1B60047D2A4 /* Supporting Files */,
+			);
+			path = ZYLoopScrollView;
+			sourceTree = "<group>";
+		};
+		1963931D1C83E1B60047D2A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1963931E1C83E1B60047D2A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		196393361C83E1B60047D2A4 /* ZYLoopScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				196393371C83E1B60047D2A4 /* ZYLoopScrollViewTests.m */,
+				196393391C83E1B60047D2A4 /* Info.plist */,
+			);
+			path = ZYLoopScrollViewTests;
+			sourceTree = "<group>";
+		};
+		196393411C83E1B60047D2A4 /* ZYLoopScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				196393421C83E1B60047D2A4 /* ZYLoopScrollViewUITests.m */,
+				196393441C83E1B60047D2A4 /* Info.plist */,
+			);
+			path = ZYLoopScrollViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		196393191C83E1B60047D2A4 /* ZYLoopScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196393471C83E1B60047D2A4 /* Build configuration list for PBXNativeTarget "ZYLoopScrollView" */;
+			buildPhases = (
+				196393161C83E1B60047D2A4 /* Sources */,
+				196393171C83E1B60047D2A4 /* Frameworks */,
+				196393181C83E1B60047D2A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYLoopScrollView;
+			productName = ZYLoopScrollView;
+			productReference = 1963931A1C83E1B60047D2A4 /* ZYLoopScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		196393321C83E1B60047D2A4 /* ZYLoopScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1963934A1C83E1B60047D2A4 /* Build configuration list for PBXNativeTarget "ZYLoopScrollViewTests" */;
+			buildPhases = (
+				1963932F1C83E1B60047D2A4 /* Sources */,
+				196393301C83E1B60047D2A4 /* Frameworks */,
+				196393311C83E1B60047D2A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				196393351C83E1B60047D2A4 /* PBXTargetDependency */,
+			);
+			name = ZYLoopScrollViewTests;
+			productName = ZYLoopScrollViewTests;
+			productReference = 196393331C83E1B60047D2A4 /* ZYLoopScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1963933D1C83E1B60047D2A4 /* ZYLoopScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1963934D1C83E1B60047D2A4 /* Build configuration list for PBXNativeTarget "ZYLoopScrollViewUITests" */;
+			buildPhases = (
+				1963933A1C83E1B60047D2A4 /* Sources */,
+				1963933B1C83E1B60047D2A4 /* Frameworks */,
+				1963933C1C83E1B60047D2A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				196393401C83E1B60047D2A4 /* PBXTargetDependency */,
+			);
+			name = ZYLoopScrollViewUITests;
+			productName = ZYLoopScrollViewUITests;
+			productReference = 1963933E1C83E1B60047D2A4 /* ZYLoopScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		196393121C83E1B60047D2A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = yi;
+				TargetAttributes = {
+					196393191C83E1B60047D2A4 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					196393321C83E1B60047D2A4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 196393191C83E1B60047D2A4;
+					};
+					1963933D1C83E1B60047D2A4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 196393191C83E1B60047D2A4;
+					};
+				};
+			};
+			buildConfigurationList = 196393151C83E1B60047D2A4 /* Build configuration list for PBXProject "ZYLoopScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 196393111C83E1B60047D2A4;
+			productRefGroup = 1963931B1C83E1B60047D2A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				196393191C83E1B60047D2A4 /* ZYLoopScrollView */,
+				196393321C83E1B60047D2A4 /* ZYLoopScrollViewTests */,
+				1963933D1C83E1B60047D2A4 /* ZYLoopScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		196393181C83E1B60047D2A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1963932D1C83E1B60047D2A4 /* LaunchScreen.storyboard in Resources */,
+				1963932A1C83E1B60047D2A4 /* Assets.xcassets in Resources */,
+				196393281C83E1B60047D2A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		196393311C83E1B60047D2A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1963933C1C83E1B60047D2A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		196393161C83E1B60047D2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196393251C83E1B60047D2A4 /* ViewController.m in Sources */,
+				196393221C83E1B60047D2A4 /* AppDelegate.m in Sources */,
+				1963931F1C83E1B60047D2A4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1963932F1C83E1B60047D2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196393381C83E1B60047D2A4 /* ZYLoopScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1963933A1C83E1B60047D2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196393431C83E1B60047D2A4 /* ZYLoopScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		196393351C83E1B60047D2A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 196393191C83E1B60047D2A4 /* ZYLoopScrollView */;
+			targetProxy = 196393341C83E1B60047D2A4 /* PBXContainerItemProxy */;
+		};
+		196393401C83E1B60047D2A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 196393191C83E1B60047D2A4 /* ZYLoopScrollView */;
+			targetProxy = 1963933F1C83E1B60047D2A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		196393261C83E1B60047D2A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				196393271C83E1B60047D2A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1963932B1C83E1B60047D2A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1963932C1C83E1B60047D2A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		196393451C83E1B60047D2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		196393461C83E1B60047D2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		196393481C83E1B60047D2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYLoopScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TyroneWing.ZYLoopScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		196393491C83E1B60047D2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYLoopScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TyroneWing.ZYLoopScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1963934B1C83E1B60047D2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYLoopScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TyroneWing.ZYLoopScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYLoopScrollView.app/ZYLoopScrollView";
+			};
+			name = Debug;
+		};
+		1963934C1C83E1B60047D2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYLoopScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TyroneWing.ZYLoopScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYLoopScrollView.app/ZYLoopScrollView";
+			};
+			name = Release;
+		};
+		1963934E1C83E1B60047D2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYLoopScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TyroneWing.ZYLoopScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYLoopScrollView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1963934F1C83E1B60047D2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYLoopScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TyroneWing.ZYLoopScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYLoopScrollView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		196393151C83E1B60047D2A4 /* Build configuration list for PBXProject "ZYLoopScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196393451C83E1B60047D2A4 /* Debug */,
+				196393461C83E1B60047D2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		196393471C83E1B60047D2A4 /* Build configuration list for PBXNativeTarget "ZYLoopScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196393481C83E1B60047D2A4 /* Debug */,
+				196393491C83E1B60047D2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1963934A1C83E1B60047D2A4 /* Build configuration list for PBXNativeTarget "ZYLoopScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1963934B1C83E1B60047D2A4 /* Debug */,
+				1963934C1C83E1B60047D2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1963934D1C83E1B60047D2A4 /* Build configuration list for PBXNativeTarget "ZYLoopScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1963934E1C83E1B60047D2A4 /* Debug */,
+				1963934F1C83E1B60047D2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 196393121C83E1B60047D2A4 /* Project object */;
+}
